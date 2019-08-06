@@ -19,3 +19,5 @@
 19. 无状态组件：当组件只有一个render函数的时候，建议定义为无状态组件，相比类组件性能要高很多
 20. redux-thunk可以使异步请求在action中请求，拆分组件请求逻辑，减少组件代码体积
 21. redux-saga相对thunk复杂得多，将以将action中的异步请求单独拆分成一个文件
+22. immutable库将state变为不可变对象
+23. redux-immutable将多个页面独立的reducer组合为一个reducer
